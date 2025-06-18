@@ -1,0 +1,29 @@
+{
+  "type": "module",
+  "dependencies": {
+    "@sentry/node": "^9.27.0",
+    "dotenv": "^16.5.0",
+    "express": "^5.1.0",
+    "joi": "^17.13.3"
+  },
+  "name": "Proxy Server",
+  "version": "1.0.0",
+  "description": "Proxy Server на JavaScript с Express",
+  "main": "index.js",
+  "devDependencies": {
+    "nodemon": "^3.1.10"
+  },
+  "scripts": {
+    "dev": "nodemon index.js",
+    "start": "node index.js"
+  },
+  "keywords": [
+    "Proxy Server",
+    "Proxy",
+    "Server",
+    "JavaScript",
+    "Express"
+  ],
+  "author": "TheYrman",
+  "license": "ISC"
+}
